@@ -1,4 +1,4 @@
-{% set version = "0.82" %}
+{% set version = "0.84" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/broman_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/broman/broman_{{ version }}.tar.gz
-  sha256: 742cdc1c8ad81708dcaa13cd3ce42f62ce1d33ea8c5c5b94b57a4471a98cac06
+  sha256: e204c14746ec408a063b7a474831bbc04057b8d38860059b8ea62ada772f0007
 
 build:
   merge_build_host: true  # [win]
