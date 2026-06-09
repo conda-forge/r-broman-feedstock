@@ -1,4 +1,4 @@
-{% set version = "0.92" %}
+{% set version = "0.94" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/broman_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/broman/broman_{{ version }}.tar.gz
-  sha256: e5695bebf70ce3cb5d48723657836cd6c803851221fe06ad19bf0252deec2995
+  sha256: 7e62835aebfcc823c2881ef2cebb8100ffcc23fa6e6fb0b07b875156d6156b2d
 
 build:
   number: 0
